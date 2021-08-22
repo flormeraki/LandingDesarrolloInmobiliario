@@ -1,0 +1,198 @@
+:root {
+    --primario:#85D2D0;
+    --secundario:#4E4F50;
+    --terciario:#E4E5E8;
+    --cuaternario:#B9B7BD;
+    --negro: #000;
+    --blanco: #fff;
+    --gris: #3f3f3f;
+    --fuentePrincipal:'Urbanist', sans-serif;
+  
+}
+
+
+
+.container {
+    max-width: 1100px;
+}
+header {
+    background-image: url('./assets/sven-mieke-fteR0e2BzKo-unsplash.jpg');
+    background-size: cover;
+    height: 600px;
+    max-width: 100%;
+    position: relative;
+    font-family: var(--fuentePrincipal);
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+}
+
+
+
+.title {
+    color: var(--negro);
+    font-size: 4rem;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-95%) translateX(60%);
+}
+
+.sbt {
+    top: 10%;
+    transform: translateY(-90%); 
+}
+
+.btn {
+    background-color: var(--primario);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.registro {
+    background-color: var(--primario);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translateY(180%) translateX(10%);
+}
+.nav-link {
+    color: var(--secundario);
+}
+
+.logo {
+    width: 5rem;
+    top: 10%;
+    transform: translateY(15%) translateX(10%);
+}
+
+.novedades {
+    font-size: 2rem;
+    top: 10%;
+    transform: translateY(80%);
+}
+#row-cursos{
+    background-color: var(--primario);
+}
+
+.casa {
+    max-width: 12rem;
+   
+}
+.row{
+    margin: 0;
+}
+
+#row-cursos img{
+    border-radius: 50%;
+}
+
+#row-nosotros{
+    /*background-image: url('assets/fondo2.png');*/
+   /* background-size: cover;*/
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    
+}
+
+#row-nosotros{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-datos {
+    color: var(--blanco);
+}
+#row-servicios{
+    background-color: var(--primario);
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    color: var(--blanco);
+}
+#row-frace{
+    background-image: url('./assets/bernard-hermant-KqOLr8OiQLU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    max-width: 100%;
+    position: relative;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+#row-contacto{
+    background-color: var(--cuaternario);
+    color: var(--blanco);
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+#row-nosotros img{
+    border-radius: 50%;
+    width: 300px;
+}
+#row-servicios img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+
+#row-nosotros p{
+    font-size: 14px;
+}
+
+#row-servicios p{
+    font-size: 14px;
+}
+
+
+#row-datos{
+    background-color: var(--cuaternario);
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #B3FBFF;
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+.pie {
+    font-style: italic;
+}
+
+footer{
+    background-color: var(--secundario);
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: var(--primario);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;    
+        padding-left: 20px;    
+    }
+}
+nav{
+    z-index: 100;
+}
